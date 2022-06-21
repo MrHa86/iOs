@@ -11,7 +11,10 @@ class BallDownNatureViewController: UIViewController {
     
     var ballView: UIView = {        // thêm UIView ballView
         let view = UIView()
+        print()
+        print()
         return view
+        
     }()
     
     var v: CGFloat = 0
